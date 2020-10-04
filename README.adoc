@@ -1,0 +1,8 @@
+== Data Transformer to convert Space data into piano symphonies
+
+This project is to be used for NASA International Space Apps Challenge 2020
+
+If the datafiles are too big use the `FileSplitter` utility to split them into smaller manageable files.
+
+The `MainRunner` reads all files under `src/main/resources/processed`, AND transforms them into a suite of piano keys.
+
