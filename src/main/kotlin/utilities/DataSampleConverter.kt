@@ -113,7 +113,7 @@ class DataSampleConverter {
                     track.add(midiEvent)
 
                     tick += duration
-                    //note off - middle C - 60 ticks later
+                    //note off - middle C - 20 ticks later
                     mm = ShortMessage()
                     mm.setMessage(NOTE_OFF, noteValue, 0x40)
                     midiEvent = MidiEvent(mm, tick)
